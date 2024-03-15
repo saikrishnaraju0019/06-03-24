@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .button:nth-child(1) {
+            animation-name: button;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+
+
+        }
+
+        .button:nth-child(2) {
+            animation-name: button;
+            animation-iteration-count: infinite;
+            animation-duration: 5s;
+            animation-timing-function: ease;
+        }
+
+        .button:nth-child(3) {
+            animation-name: button;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+
+            animation-duration: 5s;
+        }
+
+        .button:nth-child(4) {
+            animation-name: button;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+
+            animation-duration: 5s;
+        }
+
+        .button:nth-child(5) {
+            animation-name: button;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+
+        }
+
+        @keyframes button {
+
+            15% {
+                transform: translateY(50px);
+                display: none;
+            }
+        }
+
+
+
+        .button {
+            height: 100px;
+            width: 10px;
+            border-color: white;
+            background-color: grey;
+            margin-left: 5px;
+            animation-name: button;
+            animation-duration: 3s;
+            border-radius: 50px;
+        }
+
+        .music-card {
+            width: 50%;
+            border: 2px solid white;
+            position: absolute;
+            background-size: cover;
+        }
+
+        div {
+            display: flex;
+            justify-content: center;
+        }
+
+        li {
+            color: red;
+        }
+
+
+        
+    </style>
+</head>
+
+<body>
+    <a href="./06-03-24imgtask.html"> click for task-3</a>
+    <center>
+        <h3>Hanuman(2024)</h3>
+    </center>
+    <div>
+        <div class="music-card">
+            <button class="button"></button>
+            <button class="button"></button>
+            <button class="button"></button>
+            <button class="button"></button>
+            <button class="button"></button>
+
+        </div>
+        <img src="https://pbs.twimg.com/media/GC_V6K8bIAATEjo?format=jpg&name=4096x4096" height="200px" width="200px">
+    </div>
+
+    <hr>
+    <div>
+        <center>
+            <p>Hanuman songs Download</p>
+            <p>
+                Director:- Prasanth Varma<br>
+                Producer:- Kniranjanreddy<br>
+                Distributed by:- AA Films<br>
+                <b> Category:-Telugu Movie</b>
+            </p>
+
+            <li> Hanuman Chalisa</li>
+            <audio controls>
+                <source src="./[iSongs.info] 01 - Hanuman Chalisa.mp3">
+            </audio>
+            <br>
+            <a href="./[iSongs.info] 01 - Hanuman Chalisa.mp3" download><button>download</button></a>
+            <br>
+            <li>Jai Sri Ram</li>
+            <audio controls>
+                <source src="./[iSongs.info] 05 - Anjanadri Theme Song.mp3">
+            </audio>
+            <br>
+            <a href="./[iSongs.info] 05 - Anjanadri Theme Song.mp3" download style="background-color: aquamarine;"><button>download</button></a>
+
+
+    </div>
+
+</body>
+
+</html>
